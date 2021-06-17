@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    font-family: "arial", sans-serif;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li{
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.nav-bar .link {
+    margin: 1.2rem 0.8rem 0 0.2rem;
+    display: block;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+#prof{
+    display: flex;
+    border-radius: 50%;
+    margin: 0.9rem 1.1rem 0 0.2rem;
+}
+
+
+.bento-menu{
+    width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bento-menu .bento-dot{
+    background-color: #777777;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 1px;
+
+}
+
+.dots{
+    margin: 1.3rem 1.2rem 0 1rem;
+}
+
+  main{
+      min-height: calc(100vh-100px);
+  }
+
+  .logo{
+     display: flex;
+     justify-content: center;
+     margin-top: 23vh;
+     margin-bottom: 25px;
+  }
+
+  .search-box{
+      display: flex;
+      justify-content: space-between;
+      border: solid 1px #dfe1e5;
+      margin: auto 73vh;
+      border-radius: 30px;
+  }
+
+  .search-bar{
+      font-size: 1em;
+      font-weight: lighter;
+      width: 95%;
+      border: none;
+      
+  }
+
+  .voice-search{
+      display: flex;
+      background-color: #FFF;
+      margin: 6px;
+      border: none;
+      cursor: pointer;
+
+  }
+
+  .search-img{
+      height: 80%;
+      border-radius: 50%;
+      margin: 5px;
+      margin-top: 8px;
+      background-color: #FFF;
+  }
+
+footer{
+    clear: both;
+    position: fixed;
+        font-size: 14px;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    width: 100%;
+    bottom: 0;
+    min-height: 80px;
+}
+
+footer .location{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}  
+
+footer .buttons{
+    height: 40px;
+    display: flex;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+footer .buttons .footer-left{
+    margin: -6px 10px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+footer .buttons .footer-right{
+    margin: -6px 10px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54)
+}
+
+.buttons a:hover{
+    text-decoration: underline;
+}
+
+.footer-left li{
+    list-style:none;
+    padding-right: 2em;
+}
+
+.footer-right li{
+    list-style:none;
+    padding-left: 2em;
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.search-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 73vh;
+}
+
+.google-search{
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #202124;
+    padding: 0 16px;
+    margin: 0.7rem;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+}
+
+.feeling-lucky{
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #202124;
+    padding: 0 16px;;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+}
+
+.google-search:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+}
+
+.feeling-lucky:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+}
+
+.search-box:hover{
+    box-shadow: 0 1px 3px 0 rgba(32, 33, 36, 0.28);
+}
+
+.nav-bar .link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-bar .bento-menu:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
+}
+
+.profile-image:hover{
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
